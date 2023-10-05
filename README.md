@@ -39,3 +39,10 @@ Try resizing your browser window. What happens to the other columns when the sec
 
 Hint
 The second column currently has a value 50% width. Replace the value with a minmax() function using 50px as the minimum width and 300px as the maximum width.
+
+
+memory jog:
+
+
+
+/c/Users/glads/Documents/PROJECTS_AT_CODECADEMY/GRID_ESSENTIALS/lesson8_of_15_GRID-ESSENTIALS-minmax
