@@ -20,3 +20,22 @@ In these situations, you might want to prevent a row or column from getting too 
 In this example, the first and third columns will always be 100 pixels wide, no matter the size of the grid. The second column, however, will vary in size as the overall grid resizes. The second column will always be between 100 and 500 pixels wide.
 
 
+### Instructions
+Checkpoint 1 Passed
+
+1. To see minmax() in action, we need to first make the grid have a variable width. Delete the width declaration from .grid.
+
+If you resize your browser, you will see the grid change size with the window.
+
+
+Hint
+The declaration is width: 400px;.
+
+Checkpoint 2 Passed
+2. Using minmax(), change the second column to be between 50 pixels and 300 pixels.
+
+Try resizing your browser window. What happens to the other columns when the second column reaches the 300 pixel limit?
+
+
+Hint
+The second column currently has a value 50% width. Replace the value with a minmax() function using 50px as the minimum width and 300px as the maximum width.
